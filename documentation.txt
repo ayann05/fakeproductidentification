@@ -1,0 +1,57 @@
+products.sol
+
+/* 
+
+
+SPDX-License-Identifier: This line indicates the license under which the code is released. SPDX is a standard format for communicating license 
+information about software. "MAGLU" is just an example license identifier.
+
+pragma solidity ^0.8.2;: This line specifies the version of Solidity 
+(the programming language used for writing smart contracts on Ethereum) the contract is compatible with. It ensures that the contract will be 
+compiled correctly using version 0.8.2 or higher.
+
+contract product { ... }: This defines a smart contract named "product". A contract in Solidity 
+is similar to a class in object-oriented programming languages. It encapsulates data (state variables) and functions (methods) that operate on that
+data.
+
+uint256: This is a data type that represents unsigned integers (whole numbers) with a width of 256 bits. In simpler terms, it can hold very 
+large positive numbers.
+
+bytes32: This is a fixed-size byte array of length 32. It's often used for storing small data like hashes, identifiers, or 
+short strings.
+
+struct: This keyword is used to define a custom data structure. In this contract, two structs are defined: seller and productItem. 
+Structs allow you to create complex data types with multiple fields.
+
+mapping: This is a key-value store that maps keys to values. In this contract, 
+mappings are used to associate sellers with their IDs, product serial numbers with product information, and other similar relationships.
+
+function: This keyword is used to define functions that can be called on the contract. Functions allow you to perform actions or retrieve data 
+from the contract.
+
+addSeller(): This function is used to add a new seller to the system. It takes various parameters like the seller's name, brand, 
+code, etc., and stores this information in the contract's state variables.
+
+viewSellers(): This function allows anyone to view the list of sellers 
+stored in the contract. It returns arrays containing the details of all sellers, such as their IDs, names, brands, etc.
+
+addProduct(): This function is used to add a new product to the system. It takes parameters like the product's name, serial number, brand, etc., 
+and stores this information in the contract's state variables.
+
+viewProductItems(): Similar to viewSellers(), this function allows anyone to view the list of products stored in the contract.
+
+manufacturerSellProduct() and sellerSellProduct(): These functions are used to mark products as available for sale by manufacturers and sellers, 
+respectively. They update the status of the product and associate it with the seller or consumer.
+
+queryProductsList() and querySellersList(): These functions allow querying the list of products associated with a specific seller or the list of 
+sellers associated with a specific manufacturer.
+
+getPurchaseHistory(): This function allows consumers to view their purchase history by providing their unique consumer code.
+
+verifyProduct(): This function allows consumers to verify whether a product they purchased matches their consumer code, ensuring authenticity.
+
+Overall, this smart contract manages the relationship between sellers, manufacturers, and products, allowing for the addition of new sellers and 
+products, as well as tracking the sale and purchase history of products.
+
+
+ */

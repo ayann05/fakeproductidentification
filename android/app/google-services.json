@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "132814659630",
+    "project_id": "fpidapp",
+    "storage_bucket": "fpidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132814659630:android:76c4023fca98f1406affbf",
+        "android_client_info": {
+          "package_name": "com.example.fpidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132814659630-3dnbm0urtti3vguht83sp7e4dttmh3ic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fpidapp",
+            "certificate_hash": "e6b4878dd60f7dc69070b796bc444619f4617545"
+          }
+        },
+        {
+          "client_id": "132814659630-ri8021u4ghfj7nq0b60uoqvjs8dqugoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWGZga4Ra9wiM88VijsFOp0T5jfjvWh90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132814659630-ri8021u4ghfj7nq0b60uoqvjs8dqugoq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "132814659630-a33pnf4i6it4a1j0oqarrssvrbubg08j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fpidapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
